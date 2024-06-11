@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color:  black;
+}
+
+nav{
+    height: 100px;
+    color: white;
+    background-color: rebeccapurple;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 33px;
+}
+
+.img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+}
+
+.name{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.name h1{
+    color: lightskyblue;
+    
+}
+
+.img img{
+    height: 200px;
+   
+}
+
+.img2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 30px;
+}
+
+.img2 img{
+    height: 200px;
+}
+
+.link{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 60px;
+
+}
+
+.link a{
+   color: red;
+   text-decoration: none;
+   font-size: 50px;
+}
+
+.link a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+footer{
+    justify-content: space-around;
+    display: flex;
+    height: 100px;
+    background-color: orange;
+}
+
+
+
+#bhavya{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+
+span{ 
+    margin: 12px;
+    padding: 12px;
+}
+   
+
+span a{ 
+   color: black;
+   text-decoration: none;
+
+}
+   
+span a:hover{ 
+   color: blue;
+   font-size: 3rem;
+   text-decoration: underline;
+}
